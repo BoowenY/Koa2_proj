@@ -1,0 +1,28 @@
+{
+  "name": "koa2_proj",
+  "version": "1.0.0",
+  "description": "Koa2_NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yorn-Yang/Koa2_proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yorn-Yang/Koa2_proj/issues"
+  },
+  "homepage": "https://github.com/Yorn-Yang/Koa2_proj#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mysql2": "^2.2.5"
+  }
+}
